@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  Planning Pocker
+
+  Created by carlos on 14-4-13.
+  Copyright (c) 2014年 CarlosWong. All rights reserved.
+*/
+"setting"="Settings";
+"desk"= "Desk";
+"style"="Style";
+"customize"="Customize";
+"audio"="Audio";
+"enable"="Enable";
+"add"="Add";
+"save"="Save";
+"card"="Card";
+"no empty"="Can't be empty";

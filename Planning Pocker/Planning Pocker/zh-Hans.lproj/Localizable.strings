@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  Planning Pocker
+
+  Created by carlos on 14-4-13.
+  Copyright (c) 2014年 CarlosWong. All rights reserved.
+*/
+"setting" = "设置";
+"desk" = "出牌器";
+"style"="样式设置";
+"customize"="定义样式";
+"audio"="声效设置";
+"enable"="开启声效";
+"add"="添加纸牌";
+"save"="保存";
+"card"="纸牌";
+"no empty"="不能为空";

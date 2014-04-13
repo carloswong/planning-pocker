@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0765EDA318FA302F00EE700B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0765EDA218FA302F00EE700B /* Foundation.framework */; };
+		0765EDA518FA302F00EE700B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0765EDA418FA302F00EE700B /* CoreGraphics.framework */; };
+		0765EDA718FA302F00EE700B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0765EDA618FA302F00EE700B /* UIKit.framework */; };
+		0765EDAD18FA302F00EE700B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0765EDAB18FA302F00EE700B /* InfoPlist.strings */; };
+		0765EDAF18FA302F00EE700B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765EDAE18FA302F00EE700B /* main.m */; };
+		0765EDB318FA302F00EE700B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765EDB218FA302F00EE700B /* AppDelegate.m */; };
+		0765EDB518FA302F00EE700B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0765EDB418FA302F00EE700B /* Images.xcassets */; };
+		0765EDBC18FA302F00EE700B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0765EDBB18FA302F00EE700B /* XCTest.framework */; };
+		0765EDBD18FA302F00EE700B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0765EDA218FA302F00EE700B /* Foundation.framework */; };
+		0765EDBE18FA302F00EE700B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0765EDA618FA302F00EE700B /* UIKit.framework */; };
+		0765EDC618FA302F00EE700B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0765EDC418FA302F00EE700B /* InfoPlist.strings */; };
+		0765EDC818FA302F00EE700B /* Planning_PockerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765EDC718FA302F00EE700B /* Planning_PockerTests.m */; };
+		0765EDE518FA34EC00EE700B /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765EDD818FA34EC00EE700B /* Card.m */; };
+		0765EDE618FA34EC00EE700B /* CustomCardSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765EDDA18FA34EC00EE700B /* CustomCardSetViewController.m */; };
+		0765EDE718FA34EC00EE700B /* DeskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765EDDC18FA34EC00EE700B /* DeskViewController.m */; };
+		0765EDE818FA34EC00EE700B /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765EDDE18FA34EC00EE700B /* PlayingCard.m */; };
+		0765EDE918FA34EC00EE700B /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765EDE018FA34EC00EE700B /* SettingsViewController.m */; };
+		0765EDEA18FA34EC00EE700B /* StaticCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765EDE218FA34EC00EE700B /* StaticCard.m */; };
+		0765EDEB18FA34EC00EE700B /* Storage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0765EDE418FA34EC00EE700B /* Storage.m */; };
+		0765EE0218FA37B900EE700B /* blank-card.png in Resources */ = {isa = PBXBuildFile; fileRef = 0765EDED18FA37B900EE700B /* blank-card.png */; };
+		0765EE0318FA37B900EE700B /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0765EDEE18FA37B900EE700B /* button.png */; };
+		0765EE0418FA37B900EE700B /* card-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0765EDEF18FA37B900EE700B /* card-1.png */; };
+		0765EE0518FA37B900EE700B /* card-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 0765EDF018FA37B900EE700B /* card-10.png */; };
+		0765EE0618FA37B900EE700B /* card-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0765EDF118FA37B900EE700B /* card-2.png */; };
+		0765EE0718FA37B900EE700B /* card-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 0765EDF218FA37B900EE700B /* card-3.png */; };
+		0765EE0818FA37B900EE700B /* card-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 0765EDF318FA37B900EE700B /* card-4.png */; };
+		0765EE0918FA37B900EE700B /* card-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 0765EDF418FA37B900EE700B /* card-5.png */; };
+		0765EE0A18FA37B900EE700B /* card-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 0765EDF518FA37B900EE700B /* card-6.png */; };
+		0765EE0B18FA37B900EE700B /* card-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 0765EDF618FA37B900EE700B /* card-7.png */; };
+		0765EE0C18FA37B900EE700B /* card-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 0765EDF718FA37B900EE700B /* card-8.png */; };
+		0765EE0D18FA37B900EE700B /* card-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 0765EDF818FA37B900EE700B /* card-9.png */; };
+		0765EE0E18FA37B900EE700B /* card-j.png in Resources */ = {isa = PBXBuildFile; fileRef = 0765EDF918FA37B900EE700B /* card-j.png */; };
+		0765EE0F18FA37B900EE700B /* card-joker.png in Resources */ = {isa = PBXBuildFile; fileRef = 0765EDFA18FA37B900EE700B /* card-joker.png */; };
+		0765EE1018FA37B900EE700B /* card-k.png in Resources */ = {isa = PBXBuildFile; fileRef = 0765EDFB18FA37B900EE700B /* card-k.png */; };
+		0765EE1118FA37B900EE700B /* card-q.png in Resources */ = {isa = PBXBuildFile; fileRef = 0765EDFC18FA37B900EE700B /* card-q.png */; };
+		0765EE1218FA37B900EE700B /* configuration.png in Resources */ = {isa = PBXBuildFile; fileRef = 0765EDFD18FA37B900EE700B /* configuration.png */; };
+		0765EE1318FA37B900EE700B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0765EDFE18FA37B900EE700B /* Default-568h@2x.png */; };
+		0765EE1418FA37B900EE700B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0765EDFF18FA37B900EE700B /* Default.png */; };
+		0765EE1518FA37B900EE700B /* desk-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0765EE0018FA37B900EE700B /* desk-background@2x.png */; };
+		0765EE1618FA37B900EE700B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0765EE0118FA37B900EE700B /* icon.png */; };
+		0765EE2118FA6FB700EE700B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0765EE2318FA6FB700EE700B /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0765EDBF18FA302F00EE700B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0765ED9718FA302E00EE700B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0765ED9E18FA302F00EE700B;
+			remoteInfo = "Planning Pocker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0765ED9F18FA302F00EE700B /* Planning Pocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Planning Pocker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0765EDA218FA302F00EE700B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0765EDA418FA302F00EE700B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0765EDA618FA302F00EE700B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0765EDAA18FA302F00EE700B /* Planning Pocker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Planning Pocker-Info.plist"; sourceTree = "<group>"; };
+		0765EDAC18FA302F00EE700B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0765EDAE18FA302F00EE700B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0765EDB018FA302F00EE700B /* Planning Pocker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Planning Pocker-Prefix.pch"; sourceTree = "<group>"; };
+		0765EDB118FA302F00EE700B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0765EDB218FA302F00EE700B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0765EDB418FA302F00EE700B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0765EDBA18FA302F00EE700B /* Planning PockerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Planning PockerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0765EDBB18FA302F00EE700B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0765EDC318FA302F00EE700B /* Planning PockerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Planning PockerTests-Info.plist"; sourceTree = "<group>"; };
+		0765EDC518FA302F00EE700B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0765EDC718FA302F00EE700B /* Planning_PockerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Planning_PockerTests.m; sourceTree = "<group>"; };
+		0765EDD718FA34EC00EE700B /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		0765EDD818FA34EC00EE700B /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		0765EDD918FA34EC00EE700B /* CustomCardSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCardSetViewController.h; sourceTree = "<group>"; };
+		0765EDDA18FA34EC00EE700B /* CustomCardSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCardSetViewController.m; sourceTree = "<group>"; };
+		0765EDDB18FA34EC00EE700B /* DeskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeskViewController.h; sourceTree = "<group>"; };
+		0765EDDC18FA34EC00EE700B /* DeskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeskViewController.m; sourceTree = "<group>"; };
+		0765EDDD18FA34EC00EE700B /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		0765EDDE18FA34EC00EE700B /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		0765EDDF18FA34EC00EE700B /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		0765EDE018FA34EC00EE700B /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		0765EDE118FA34EC00EE700B /* StaticCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StaticCard.h; sourceTree = "<group>"; };
+		0765EDE218FA34EC00EE700B /* StaticCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StaticCard.m; sourceTree = "<group>"; };
+		0765EDE318FA34EC00EE700B /* Storage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Storage.h; sourceTree = "<group>"; };
+		0765EDE418FA34EC00EE700B /* Storage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Storage.m; sourceTree = "<group>"; };
+		0765EDED18FA37B900EE700B /* blank-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blank-card.png"; sourceTree = "<group>"; };
+		0765EDEE18FA37B900EE700B /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		0765EDEF18FA37B900EE700B /* card-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-1.png"; sourceTree = "<group>"; };
+		0765EDF018FA37B900EE700B /* card-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-10.png"; sourceTree = "<group>"; };
+		0765EDF118FA37B900EE700B /* card-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-2.png"; sourceTree = "<group>"; };
+		0765EDF218FA37B900EE700B /* card-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-3.png"; sourceTree = "<group>"; };
+		0765EDF318FA37B900EE700B /* card-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-4.png"; sourceTree = "<group>"; };
+		0765EDF418FA37B900EE700B /* card-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-5.png"; sourceTree = "<group>"; };
+		0765EDF518FA37B900EE700B /* card-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-6.png"; sourceTree = "<group>"; };
+		0765EDF618FA37B900EE700B /* card-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-7.png"; sourceTree = "<group>"; };
+		0765EDF718FA37B900EE700B /* card-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-8.png"; sourceTree = "<group>"; };
+		0765EDF818FA37B900EE700B /* card-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-9.png"; sourceTree = "<group>"; };
+		0765EDF918FA37B900EE700B /* card-j.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-j.png"; sourceTree = "<group>"; };
+		0765EDFA18FA37B900EE700B /* card-joker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-joker.png"; sourceTree = "<group>"; };
+		0765EDFB18FA37B900EE700B /* card-k.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-k.png"; sourceTree = "<group>"; };
+		0765EDFC18FA37B900EE700B /* card-q.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card-q.png"; sourceTree = "<group>"; };
+		0765EDFD18FA37B900EE700B /* configuration.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = configuration.png; sourceTree = "<group>"; };
+		0765EDFE18FA37B900EE700B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0765EDFF18FA37B900EE700B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0765EE0018FA37B900EE700B /* desk-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "desk-background@2x.png"; sourceTree = "<group>"; };
+		0765EE0118FA37B900EE700B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		0765EE1F18FA6F4D00EE700B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		0765EE2018FA6F4D00EE700B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		0765EE2218FA6FB700EE700B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		0765EE2418FA6FC900EE700B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0765ED9C18FA302F00EE700B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0765EDA518FA302F00EE700B /* CoreGraphics.framework in Frameworks */,
+				0765EDA718FA302F00EE700B /* UIKit.framework in Frameworks */,
+				0765EDA318FA302F00EE700B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0765EDB718FA302F00EE700B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0765EDBC18FA302F00EE700B /* XCTest.framework in Frameworks */,
+				0765EDBE18FA302F00EE700B /* UIKit.framework in Frameworks */,
+				0765EDBD18FA302F00EE700B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0765ED9618FA302E00EE700B = {
+			isa = PBXGroup;
+			children = (
+				0765EDA818FA302F00EE700B /* Planning Pocker */,
+				0765EDC118FA302F00EE700B /* Planning PockerTests */,
+				0765EDA118FA302F00EE700B /* Frameworks */,
+				0765EDA018FA302F00EE700B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0765EDA018FA302F00EE700B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0765ED9F18FA302F00EE700B /* Planning Pocker.app */,
+				0765EDBA18FA302F00EE700B /* Planning PockerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0765EDA118FA302F00EE700B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0765EDA218FA302F00EE700B /* Foundation.framework */,
+				0765EDA418FA302F00EE700B /* CoreGraphics.framework */,
+				0765EDA618FA302F00EE700B /* UIKit.framework */,
+				0765EDBB18FA302F00EE700B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0765EDA818FA302F00EE700B /* Planning Pocker */ = {
+			isa = PBXGroup;
+			children = (
+				0765EDEC18FA37B900EE700B /* images */,
+				0765EDD718FA34EC00EE700B /* Card.h */,
+				0765EDD818FA34EC00EE700B /* Card.m */,
+				0765EDD918FA34EC00EE700B /* CustomCardSetViewController.h */,
+				0765EDDA18FA34EC00EE700B /* CustomCardSetViewController.m */,
+				0765EDDB18FA34EC00EE700B /* DeskViewController.h */,
+				0765EDDC18FA34EC00EE700B /* DeskViewController.m */,
+				0765EDDD18FA34EC00EE700B /* PlayingCard.h */,
+				0765EDDE18FA34EC00EE700B /* PlayingCard.m */,
+				0765EDDF18FA34EC00EE700B /* SettingsViewController.h */,
+				0765EDE018FA34EC00EE700B /* SettingsViewController.m */,
+				0765EDE118FA34EC00EE700B /* StaticCard.h */,
+				0765EDE218FA34EC00EE700B /* StaticCard.m */,
+				0765EDE318FA34EC00EE700B /* Storage.h */,
+				0765EDE418FA34EC00EE700B /* Storage.m */,
+				0765EDB118FA302F00EE700B /* AppDelegate.h */,
+				0765EDB218FA302F00EE700B /* AppDelegate.m */,
+				0765EDB418FA302F00EE700B /* Images.xcassets */,
+				0765EDA918FA302F00EE700B /* Supporting Files */,
+			);
+			path = "Planning Pocker";
+			sourceTree = "<group>";
+		};
+		0765EDA918FA302F00EE700B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0765EDAA18FA302F00EE700B /* Planning Pocker-Info.plist */,
+				0765EDAB18FA302F00EE700B /* InfoPlist.strings */,
+				0765EDAE18FA302F00EE700B /* main.m */,
+				0765EDB018FA302F00EE700B /* Planning Pocker-Prefix.pch */,
+				0765EE2318FA6FB700EE700B /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0765EDC118FA302F00EE700B /* Planning PockerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0765EDC718FA302F00EE700B /* Planning_PockerTests.m */,
+				0765EDC218FA302F00EE700B /* Supporting Files */,
+			);
+			path = "Planning PockerTests";
+			sourceTree = "<group>";
+		};
+		0765EDC218FA302F00EE700B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0765EDC318FA302F00EE700B /* Planning PockerTests-Info.plist */,
+				0765EDC418FA302F00EE700B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0765EDEC18FA37B900EE700B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				0765EDED18FA37B900EE700B /* blank-card.png */,
+				0765EDEE18FA37B900EE700B /* button.png */,
+				0765EDEF18FA37B900EE700B /* card-1.png */,
+				0765EDF018FA37B900EE700B /* card-10.png */,
+				0765EDF118FA37B900EE700B /* card-2.png */,
+				0765EDF218FA37B900EE700B /* card-3.png */,
+				0765EDF318FA37B900EE700B /* card-4.png */,
+				0765EDF418FA37B900EE700B /* card-5.png */,
+				0765EDF518FA37B900EE700B /* card-6.png */,
+				0765EDF618FA37B900EE700B /* card-7.png */,
+				0765EDF718FA37B900EE700B /* card-8.png */,
+				0765EDF818FA37B900EE700B /* card-9.png */,
+				0765EDF918FA37B900EE700B /* card-j.png */,
+				0765EDFA18FA37B900EE700B /* card-joker.png */,
+				0765EDFB18FA37B900EE700B /* card-k.png */,
+				0765EDFC18FA37B900EE700B /* card-q.png */,
+				0765EDFD18FA37B900EE700B /* configuration.png */,
+				0765EDFE18FA37B900EE700B /* Default-568h@2x.png */,
+				0765EDFF18FA37B900EE700B /* Default.png */,
+				0765EE0018FA37B900EE700B /* desk-background@2x.png */,
+				0765EE0118FA37B900EE700B /* icon.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0765ED9E18FA302F00EE700B /* Planning Pocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0765EDCB18FA302F00EE700B /* Build configuration list for PBXNativeTarget "Planning Pocker" */;
+			buildPhases = (
+				0765ED9B18FA302F00EE700B /* Sources */,
+				0765ED9C18FA302F00EE700B /* Frameworks */,
+				0765ED9D18FA302F00EE700B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Planning Pocker";
+			productName = "Planning Pocker";
+			productReference = 0765ED9F18FA302F00EE700B /* Planning Pocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0765EDB918FA302F00EE700B /* Planning PockerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0765EDCE18FA302F00EE700B /* Build configuration list for PBXNativeTarget "Planning PockerTests" */;
+			buildPhases = (
+				0765EDB618FA302F00EE700B /* Sources */,
+				0765EDB718FA302F00EE700B /* Frameworks */,
+				0765EDB818FA302F00EE700B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0765EDC018FA302F00EE700B /* PBXTargetDependency */,
+			);
+			name = "Planning PockerTests";
+			productName = "Planning PockerTests";
+			productReference = 0765EDBA18FA302F00EE700B /* Planning PockerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0765ED9718FA302E00EE700B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = CarlosWong;
+				TargetAttributes = {
+					0765EDB918FA302F00EE700B = {
+						TestTargetID = 0765ED9E18FA302F00EE700B;
+					};
+				};
+			};
+			buildConfigurationList = 0765ED9A18FA302F00EE700B /* Build configuration list for PBXProject "Planning Pocker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+			);
+			mainGroup = 0765ED9618FA302E00EE700B;
+			productRefGroup = 0765EDA018FA302F00EE700B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0765ED9E18FA302F00EE700B /* Planning Pocker */,
+				0765EDB918FA302F00EE700B /* Planning PockerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0765ED9D18FA302F00EE700B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0765EE0818FA37B900EE700B /* card-4.png in Resources */,
+				0765EE1518FA37B900EE700B /* desk-background@2x.png in Resources */,
+				0765EE0218FA37B900EE700B /* blank-card.png in Resources */,
+				0765EE0318FA37B900EE700B /* button.png in Resources */,
+				0765EE0F18FA37B900EE700B /* card-joker.png in Resources */,
+				0765EE1418FA37B900EE700B /* Default.png in Resources */,
+				0765EE0E18FA37B900EE700B /* card-j.png in Resources */,
+				0765EE0B18FA37B900EE700B /* card-7.png in Resources */,
+				0765EE0A18FA37B900EE700B /* card-6.png in Resources */,
+				0765EE1218FA37B900EE700B /* configuration.png in Resources */,
+				0765EE0918FA37B900EE700B /* card-5.png in Resources */,
+				0765EE1018FA37B900EE700B /* card-k.png in Resources */,
+				0765EE0518FA37B900EE700B /* card-10.png in Resources */,
+				0765EE2118FA6FB700EE700B /* Localizable.strings in Resources */,
+				0765EE1618FA37B900EE700B /* icon.png in Resources */,
+				0765EDAD18FA302F00EE700B /* InfoPlist.strings in Resources */,
+				0765EE0618FA37B900EE700B /* card-2.png in Resources */,
+				0765EE1318FA37B900EE700B /* Default-568h@2x.png in Resources */,
+				0765EE0C18FA37B900EE700B /* card-8.png in Resources */,
+				0765EE0418FA37B900EE700B /* card-1.png in Resources */,
+				0765EE0D18FA37B900EE700B /* card-9.png in Resources */,
+				0765EDB518FA302F00EE700B /* Images.xcassets in Resources */,
+				0765EE0718FA37B900EE700B /* card-3.png in Resources */,
+				0765EE1118FA37B900EE700B /* card-q.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0765EDB818FA302F00EE700B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0765EDC618FA302F00EE700B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0765ED9B18FA302F00EE700B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0765EDE818FA34EC00EE700B /* PlayingCard.m in Sources */,
+				0765EDEA18FA34EC00EE700B /* StaticCard.m in Sources */,
+				0765EDE718FA34EC00EE700B /* DeskViewController.m in Sources */,
+				0765EDE618FA34EC00EE700B /* CustomCardSetViewController.m in Sources */,
+				0765EDB318FA302F00EE700B /* AppDelegate.m in Sources */,
+				0765EDAF18FA302F00EE700B /* main.m in Sources */,
+				0765EDE518FA34EC00EE700B /* Card.m in Sources */,
+				0765EDE918FA34EC00EE700B /* SettingsViewController.m in Sources */,
+				0765EDEB18FA34EC00EE700B /* Storage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0765EDB618FA302F00EE700B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0765EDC818FA302F00EE700B /* Planning_PockerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0765EDC018FA302F00EE700B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0765ED9E18FA302F00EE700B /* Planning Pocker */;
+			targetProxy = 0765EDBF18FA302F00EE700B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0765EDAB18FA302F00EE700B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0765EDAC18FA302F00EE700B /* en */,
+				0765EE1F18FA6F4D00EE700B /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0765EDC418FA302F00EE700B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0765EDC518FA302F00EE700B /* en */,
+				0765EE2018FA6F4D00EE700B /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0765EE2318FA6FB700EE700B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0765EE2218FA6FB700EE700B /* zh-Hans */,
+				0765EE2418FA6FC900EE700B /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0765EDC918FA302F00EE700B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0765EDCA18FA302F00EE700B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0765EDCC18FA302F00EE700B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Planning Pocker/Planning Pocker-Prefix.pch";
+				INFOPLIST_FILE = "Planning Pocker/Planning Pocker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0765EDCD18FA302F00EE700B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Planning Pocker/Planning Pocker-Prefix.pch";
+				INFOPLIST_FILE = "Planning Pocker/Planning Pocker-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0765EDCF18FA302F00EE700B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Planning Pocker.app/Planning Pocker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Planning Pocker/Planning Pocker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Planning PockerTests/Planning PockerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0765EDD018FA302F00EE700B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Planning Pocker.app/Planning Pocker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Planning Pocker/Planning Pocker-Prefix.pch";
+				INFOPLIST_FILE = "Planning PockerTests/Planning PockerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0765ED9A18FA302F00EE700B /* Build configuration list for PBXProject "Planning Pocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0765EDC918FA302F00EE700B /* Debug */,
+				0765EDCA18FA302F00EE700B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0765EDCB18FA302F00EE700B /* Build configuration list for PBXNativeTarget "Planning Pocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0765EDCC18FA302F00EE700B /* Debug */,
+				0765EDCD18FA302F00EE700B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0765EDCE18FA302F00EE700B /* Build configuration list for PBXNativeTarget "Planning PockerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0765EDCF18FA302F00EE700B /* Debug */,
+				0765EDD018FA302F00EE700B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0765ED9718FA302E00EE700B /* Project object */;
+}
